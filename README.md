@@ -1,3 +1,42 @@
+### Project Details ###
+# Todo App
+
+This is a Todo App built using the MERN (MongoDB, Express, React, Node.js) stack with Redux for state management.
+
+## Features
+
+- Create, Update, View, and Delete tasks
+- Mark tasks as "Done" to indicate completion
+- Filter tasks by All Tasks, Done Tasks, and Active Tasks
+- Delete all completed tasks with a single button click
+
+## Database Configuration
+
+The application is connected to a MongoDB database with the following credentials:
+
+- Username: yatheswar
+- Password: 12345
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Yatheswar546/Buzzli_Todo`
+2. Navigate to the project directory: `cd todo-app`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to access the application
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,42 +108,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-### Project Details ###
-# Todo App
-
-This is a Todo App built using the MERN (MongoDB, Express, React, Node.js) stack with Redux for state management.
-
-## Features
-
-- Create, Update, View, and Delete tasks
-- Mark tasks as "Done" to indicate completion
-- Filter tasks by All Tasks, Done Tasks, and Active Tasks
-- Delete all completed tasks with a single button click
-
-## Database Configuration
-
-The application is connected to a MongoDB database with the following credentials:
-
-- Username: yatheswar
-- Password: 12345
-
-## Getting Started
-
-To run the application locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/Yatheswar546/Buzzli_Todo`
-2. Navigate to the project directory: `cd todo-app`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit `http://localhost:3000` to access the application
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
