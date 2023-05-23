@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 80px;
+  color: #188888;
+  font-weight: 400;
+}
+
+input{
+  font-size: 20px;
+  color: #188888;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #188888;
+  padding: 8px;
+}
+
+.task{
+  background-color: #0f6c6c;
+  padding: 15px;
+  margin: 5px;
+  /* list-style: none; */
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #34495e;
+}
+
+.task span{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.task .icon{
+  float: right;
+  margin-right: 20px;
+}
+
+article{
+  display: grid;
+}
+
+.edit-todo{
+  width: 85%;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.button{
+  margin: 13px 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #073e3e;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.button.selected{
+  color: #fff;
+  background-color: #073e3e;
+}
+
+.button.clear{
+  float: right;
+  color: #fff;
+  background-color: red;
+  width: 170px;
+  position: relative;
+  top: -60px;
+}
